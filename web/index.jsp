@@ -11,11 +11,13 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body style="background:lightblue">
-          
+            <center>
        <h1 style=" font-famile:algerian; color:black">DICCIONARIO</h1>
+           </center>
         <form name="Palabras" action="Consulta" method="POST">
-
+            <center>
             <select name="Palabra">
+               
                 <option value="sistemas">sistemas</option>
                 <option>aplicacion</option>
                 <option>computador</option>
@@ -28,10 +30,11 @@ and open the template in the editor.
                 <option>moto</option>
                 <option>equipo</option>
                 <option>uno</option>
-                
+               <input type="submit" value="Traducir" name="Traducir" style="background-color: aquamarine"/>
             </select>
-            <input type="submit" value="Traducir" name="Traducir" style="background-color: aquamarine"/>
-                    </form>
+            </center>
+                      
+            </form>
      
     </body>
 </html>
